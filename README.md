@@ -17,7 +17,7 @@ The script needs to be executed with Administrator privileges to make the necess
 - Navigate to the folder containing the script using the `cd` command.
 - Execute the script by typing its name and pressing Enter (.\titanfall2_multifix.ps1).
 
-### 2. Modify the Script Path
+### 2. Modify the Titanfall2 Install Path
 
 Before you run the script, it's important to adjust the path to your Titanfall 2 executable (`Titanfall2.exe`) within the script to reflect its location on your system. By default, the script includes the following line:
 
