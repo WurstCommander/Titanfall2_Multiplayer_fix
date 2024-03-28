@@ -2,7 +2,8 @@
 
 ## Overview
 
-Players with 10th and 11th generation Intel CPUs may sometimes see a "Contacting Respawn servers.../Data Center: Searching..." message that persists, preventing them from joining servers in Titanfall 2. This issue is not exclusive to Titanfall 2 and can impact other applications as well.
+Titanfall 2 Players with 10th and 11th generation Intel CPUs may sometimes see a "Contacting Respawn servers.../Data Center: Searching..." message that persists, preventing them from joining servers in Titanfall 2. 
+This issue is not exclusive to Titanfall 2 and can impact other applications as well. These CPUs respond to a function check of the library OPENSSL wrong, to this fix is needed.
 
 ## Running the Script
 
