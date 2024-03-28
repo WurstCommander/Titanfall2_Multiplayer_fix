@@ -1,4 +1,4 @@
-# Titanfall 2 Server Connection Fix for 10th & 11th Gen Intel CPUs
+# Titanfall 2 Multiplayer Server Connection Fix for 10th & 11th Gen Intel CPUs
 
 ## Overview
 
@@ -20,10 +20,7 @@ The script needs to be executed with Administrator privileges to make the necess
 
 Before you run the script, it's important to adjust the path to your Titanfall 2 executable (`Titanfall2.exe`) within the script to reflect its location on your system. By default, the script includes the following line:
 
-```powershell
 $pathTF2 = "D:\Spiele\Titanfall2\Titanfall2.exe"
 
-About this script:
-
-This Script will change an environment variable, start EA Desktop App and Titanfall 2, remove the environment variable and close.
-So you won't have any side effects of constantly have the environment variable active.
+## About this script:
+This script modifies an environment variable, launches the EA Desktop App and Titanfall 2, then reverts the environment variable and closes. This approach ensures that you won't experience any side effects from having the environment variable constantly active.
