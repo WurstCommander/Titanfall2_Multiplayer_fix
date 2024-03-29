@@ -46,7 +46,7 @@ function WaitForTitanfall2ToStart {
 
 Clear-Host
 CheckEARunning
-#CheckAdmin
+CheckAdmin
 Write-Host "----------------------------------------------------------------------------------"
 Write-Host "Setting OPENSSL_ia32cap environment variable to help Titanfall 2 find multiplayer servers..."
 Write-Host "----------------------------------------------------------------------------------"
