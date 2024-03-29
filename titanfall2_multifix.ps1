@@ -47,15 +47,15 @@ function WaitForTitanfall2ToStart {
 Clear-Host
 CheckEARunning
 CheckAdmin
-Write-Host "----------------------------------------------------------------------------------"
+Write-Host "------------------------------------------------------------------------------------------------"
 Write-Host "Setting OPENSSL_ia32cap environment variable to help Titanfall 2 find multiplayer servers..."
-Write-Host "----------------------------------------------------------------------------------"
+Write-Host "------------------------------------------------------------------------------------------------"
 [Environment]::SetEnvironmentVariable("OPENSSL_ia32cap", "~0x200000200000000", "Machine")
 
 # Start Titanfall 2
-Write-Host "----------------------------------------------------------------------------------"
+Write-Host "------------------------------------------------------------------------------------------------"
 Write-Host "Environment variable set, launching Titanfall 2..."
-Write-Host "----------------------------------------------------------------------------------"
+Write-Host "------------------------------------------------------------------------------------------------"
 
 Start-Process -FilePath $pathTF2
 WaitForTitanfall2ToStart
